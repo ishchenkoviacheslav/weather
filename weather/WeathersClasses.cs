@@ -51,7 +51,7 @@ namespace weather
         public int sunset { get; set; }
     }
 
-    public class RootObject
+    public class WeatherData
     {
         public Coord coord { get; set; }
         public List<Weather> weather { get; set; }
