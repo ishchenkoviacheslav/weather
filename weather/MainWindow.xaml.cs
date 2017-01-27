@@ -25,7 +25,7 @@ namespace weather
         public MainWindow()
         {
             InitializeComponent();
-            string apiStr = "http://api.openweathermap.org/data/2.5/weather?q=Poltava,ukr&appid=478b547e0a226c53095708abf9fe3a3a";
+            string apiStr = "http://api.openweathermap.org/data/2.5/weather?q=Polava,ua&appid=478b547e0a226c53095708abf9fe3a3a&units=metric";
             RootObject weatherData = MakeRequest(apiStr);
             if(weatherData!=null)
             {

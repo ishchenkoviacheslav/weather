@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Label x:Name="degreeMax" Content="{Binding Path=main.temp_max}" HorizontalAlignment="Left" VerticalAlignment="Top" Height="72" Width="110" Margin="24,28,0,0"/>
+        <Label x:Name="degreeMin" Content="{Binding Path=main.temp_min}" HorizontalAlignment="Left" VerticalAlignment="Top" Height="72" Width="110" Margin="24,132,0,0"/>
+        <Label x:Name="baseData" Content="{Binding base}" HorizontalAlignment="Left" VerticalAlignment="Top" Height="72" Width="110" Margin="24,237,0,0"/>
+
     </Grid>
 </Window>
