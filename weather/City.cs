@@ -8,6 +8,12 @@ using Newtonsoft.Json;
 
 namespace weather
 {
+    public class Coord
+    {
+        public double lon { get; set; }
+        public double lat { get; set; }
+    }
+
     public class City
     {
         public int _id { get; set; }

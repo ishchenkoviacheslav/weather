@@ -59,11 +59,11 @@ namespace weather
 
             public void LoadJson()
         {
-            List<Item> items = null;
-            using (StreamReader r = new StreamReader("jsondata.json"))
+            List<City> items = null;
+            using (StreamReader r = new StreamReader("city.list2.json"))
             {
                 string json = r.ReadToEnd();
-                items = JsonConvert.DeserializeObject<List<Item>>(json);
+                items = JsonConvert.DeserializeObject<List<City>>(json);
             }
             string a = "asdf";
         }

@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 namespace weather
 {
 
-    public class Coord
-    {
-        public double lon { get; set; }
-        public double lat { get; set; }
-    }
+    //public class Coord
+    //{
+    //    public double lon { get; set; }
+    //    public double lat { get; set; }
+    //}
 
     public class Weather
     {
