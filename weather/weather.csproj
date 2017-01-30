@@ -67,7 +67,9 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="City.cs" />
-    <Compile Include="WeathersClasses.cs" />
+    <Compile Include="currentWeather.cs" />
+    <Compile Include="forecast.cs" />
+    <Compile Include="WeatherClasses.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
