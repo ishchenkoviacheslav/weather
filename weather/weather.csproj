@@ -68,7 +68,7 @@
     </ApplicationDefinition>
     <Compile Include="City.cs" />
     <Compile Include="currentWeather.cs" />
-    <Compile Include="forecast.cs" />
+    <Compile Include="forecasts.cs" />
     <Compile Include="WeatherClasses.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
